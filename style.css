@@ -1,0 +1,80 @@
+@charset "utf-8";
+*{
+	padding:0;
+	margin:0;
+	font-family: roboto ,sans-serif;
+	font-size: 35px;
+	background-color: #161616;
+	scrollbar-width:none;
+	overflow: hidden;
+}
+img.product{
+	height:600px;
+	width:600px;
+	float:right;
+	overflow: hidden;
+	left:0px;
+	top:30px;
+	position: relative;
+	display: inline-block;
+  	padding: 5px;
+}
+
+.navigation {
+  	background-color: #161616;
+	letter-spacing: 1px;
+}
+
+.navigation a {
+  	float: left;
+  	color: #f2f2f2;
+  	text-align: center;
+  	padding-left: 50px;
+  	padding-right: 50px;
+  	padding-top: 15px;
+  	padding-bottom: 15px;
+  	text-decoration: none;
+  	font-size: 25px;
+}
+
+.navigation a:hover {
+  	background-color: #EAEAEA ;
+  	color: black;
+}
+.text{
+	color:white;
+	position: relative;
+	float: inherit;
+	display: inline-block;
+	top: 100px;
+	left: 50px;
+	line-height:63px;
+	
+}
+.logo{
+	float: left;
+	width:100px;
+	height:85px;
+	margin-top:10px;
+	margin-left: 30px;
+	display: block;
+}
+.shop{
+	color: white;
+	background-color: red;
+	border: none;
+	border-radius: 30px;
+	outline: none;
+  	cursor: pointer;
+	font-size: 20px;
+	padding: 0px 20px 0px 20px;
+	width: 150px;
+	height: 50px;
+	display: block;
+	text-decoration-style: solid;
+}
+.shop:hover{
+	background-color: white;
+	color:black;
+	
+}
